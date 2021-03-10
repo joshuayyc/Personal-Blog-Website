@@ -1,3 +1,9 @@
+@import "navigation.css";
+@import "blog-category.css";
+@import "blog-preview.css";
+@import "footer.css";
+
+
 /* Remove all default margin and padding */
 *{
     margin:0px;
@@ -47,56 +53,14 @@ h3 {
 }
  #nav {
      grid-area:nav;
-     background-color: white;
-     height:50px;
-     width:100%;
-     /* Shadow beneath nav bar */
-     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
  }
 
-/* Style Nav bar using ul element */
- .nav-ul {
-     list-style: none;
-     display:flex;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
-     margin:0 auto;
- }
-
-
-.nav-li {
-    width:100px;
-}
-
-/*Turns links to block element  */
-.nav-links {
-    text-decoration: none;
-    color:black;
-    display:block;
-    height:50px;
-    text-align: center;
-    line-height: 50px;
-  /* border: 2px dashed yellow; */
-}
-
-/* Set hover for nav bar links */
-.nav-links:hover {
-    color:coral;
-}
-
-/* Nested grid area for images */
+/* Grid Section for blog categories */
 #images {
     grid-area:images;
 }
 
-/* Div containers for images */
-.images {
-    border: 2px dashed red;
-    width:100%;
-    height:200px;
-}
-
+/* Nested Grid Structure for blog-categories */
 .nest-grid {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
@@ -106,46 +70,15 @@ h3 {
     grid-gap:15px;
 }
 
-.nest-images {
-    width:100%;
-    /* border: 1px dashed red; */
-}
-
-.highlight {
-  /* border: 2px solid red; */
-  padding:10px 10px;
-  background-color: coral;
-  color:white;
-}
-
 #technology {
     grid-area:tech;
-    background-image: url(images/technology.jpg);
-    background-size:cover;
-    line-height: 200px;
-    text-align: center;
-}
-
-.nest-images:hover {
-    opacity:0.3;
 }
 
 #travel {
     grid-area:trav;
-    background-image: url(images/travel.jpg);
-    background-size:cover;
-    line-height: 200px;
-    text-align: center;
-    color:white;
 }
 #exercise {
     grid-area:exer;
-    background-image: url(images/exercise.jpg);
-    background-size:cover;
-    line-height: 200px;
-    text-align: center;
-    color:white;
-
 }
 
 
@@ -176,14 +109,12 @@ h3 {
     vertical-align: middle;
 }
 
-/* Main content area */
+/* Blog-Preview Main Grid */
  #main {
      grid-area:main;
-    text-align: center;
-    /* border: 2px dashed grey; */
  }
 
-/* Main Content section on Home page*/
+/* Nested Grid for Blog-Preview Section*/
 .nest-grid-content {
     display:grid;
     grid-template-columns:1fr;
@@ -210,18 +141,13 @@ h3 {
 
 #main-image {
     grid-area:imc;
-    background-image: url("images/coffee.jpg");
-    background-size:cover;
 }
 #blog-preview {
     grid-area:bpr;
-    font-size: 10px;
-    /* margin: 10px 10px; */
 }
 
 #cont-button {
   grid-area:but;
-  line-height: 50px;
 }
 
 
@@ -235,25 +161,9 @@ h3 {
 }
 
 
-#cont-read {
-    background-color: coral;
-    color:white;
-    height:50px;
-    border-style:none;
-    padding: 0px 20px;
-  }
-#cont-read:hover {
-    opacity: 0.3;
-    border-style: none;
-  }
-
 /* Footer section on main page */
  #foot {
      grid-area:foot;
-     background-color: grey;
-     color:white;
-     line-height: 50px;
-     text-align: center;
  }
 
 /* medium browsers */

@@ -1,0 +1,39 @@
+/* Stylesheet for navigation menu at top */
+#nav {
+    background-color: white;
+    height:50px;
+    width:100%;
+    /* Shadow beneath nav bar */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+/* Style Nav bar using ul element */
+.nav-ul {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+
+
+.nav-li {
+   width:100px;
+}
+
+/*Turns links to block element  */
+.nav-links {
+   text-decoration: none;
+   color:black;
+   display:block;
+   height:50px;
+   text-align: center;
+   line-height: 50px;
+ /* border: 2px dashed yellow; */
+}
+
+/* Set hover for nav bar links */
+.nav-links:hover {
+   color:coral;
+}

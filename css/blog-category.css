@@ -1,0 +1,37 @@
+/* CSS Stylsheet for blog-category and 3 main images section */
+#images {
+}
+
+
+.highlight {
+  padding:10px 10px;
+  background-color: black;
+  color:white;
+}
+
+#technology {
+    background-image: url(images/technology.jpg);
+    background-size:cover;
+    line-height: 200px;
+    text-align: center;
+}
+
+.nest-images:hover {
+    opacity:0.3;
+}
+
+#travel {
+    background-image: url(images/travel.jpg);
+    background-size:cover;
+    line-height: 200px;
+    text-align: center;
+    color:white;
+}
+#exercise {
+    background-image: url(images/exercise.jpg);
+    background-size:cover;
+    line-height: 200px;
+    text-align: center;
+    color:white;
+
+}

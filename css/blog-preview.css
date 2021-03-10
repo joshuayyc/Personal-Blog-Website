@@ -1,0 +1,50 @@
+/* Blog-Preview Main Grid */
+ #main {
+    text-align: center;
+    /* border: 2px dashed grey; */
+ }
+
+
+.nest-content {
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+#title {
+}
+
+#main-image {
+    background-image: url("images/coffee.jpg");
+    background-size:cover;
+}
+#blog-preview {
+    font-size: 10px;
+    /* margin: 10px 10px; */
+}
+
+#cont-button {
+  line-height: 50px;
+}
+
+
+.blog-links {
+    text-decoration: none;
+    color:black;
+}
+
+.blog-links:hover {
+    color:coral;
+}
+
+
+#cont-read {
+    background-color: coral;
+    color:white;
+    height:50px;
+    border-style:none;
+    padding: 0px 20px;
+  }
+#cont-read:hover {
+    opacity: 0.3;
+    border-style: none;
+  }

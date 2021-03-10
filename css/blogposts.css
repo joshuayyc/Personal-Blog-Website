@@ -1,3 +1,6 @@
+@import "navigation.css";
+@import "footer.css";
+
 *{
     margin:0px;
     padding:0px;
@@ -17,7 +20,7 @@ h3 {
 
 
 /* Master grid for  website page layout */
-.grid {
+.grid-blog {
     height: 100%;
     width:100%;
     display:grid;
@@ -53,40 +56,7 @@ h3 {
 }
  #nav {
      grid-area:nav;
-     background-color: white;
-     height:50px;
-     width:100%;
-     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
- }
-
- .nav-ul {
-     list-style: none;
-     display:flex;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
-     margin:0 auto;
- }
-
-.nav-li {
-    width:100px;
-}
-
-
-.nav-links {
-    text-decoration: none;
-    color:black;
-    display:block;
-    height:50px;
-    text-align: center;
-    line-height: 50px;
-  /* border: 2px dashed yellow; */
-}
-
-.nav-links:hover {
-    color:coral;
-}
-
+   }
 
  #side {
      grid-area:side;
@@ -126,8 +96,6 @@ h3 {
     overflow: hidden;
 
     /* border: 1px dashed lightgrey; */
-
-
 }
 
 .nest-content {
@@ -208,11 +176,6 @@ h3 {
 /* Footer section on main page */
  #foot {
      grid-area:foot;
-     background-color: grey;
-     color:white;
-     line-height: 50px;
-     text-align: center;
-     font-size: 12px;
  }
 
 /* medium browsers */
