@@ -1,12 +1,10 @@
 /* Blog-Preview Main Grid */
  #main {
     text-align: center;
-    /* border: 2px dashed grey; */
  }
 
-
+/* Prevent content from overflowing for blog preview */
 .nest-content {
-    /* border: 1px solid red; */
     overflow: hidden;
 }
 
@@ -17,9 +15,9 @@
     background-image: url("images/coffee.jpg");
     background-size:cover;
 }
+
 #blog-preview {
     font-size: 10px;
-    /* margin: 10px 10px; */
 }
 
 #cont-button {
@@ -44,6 +42,7 @@
     border-style:none;
     padding: 0px 20px;
   }
+  
 #cont-read:hover {
     opacity: 0.3;
     border-style: none;

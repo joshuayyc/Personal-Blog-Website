@@ -1,0 +1,14 @@
+/* CSS styling for right sidebar */
+#side {
+    text-align: center;
+    padding: 10px;
+   }
+
+.blog-links {
+    text-decoration: none;
+    color:black;
+}
+
+.blog-links:hover {
+    color:coral;
+}

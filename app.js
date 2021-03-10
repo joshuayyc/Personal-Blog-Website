@@ -1,8 +1,8 @@
-//Select + Handlers
+// Select UI Element + Add Event Listener
 document.querySelector('button').addEventListener('click',continueReading);
 
 
-//function for button click
+// Define continueReading function for button click
 function continueReading (e) {
     e.preventDefault();
     console.log("Clicked");

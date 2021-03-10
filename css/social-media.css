@@ -1,0 +1,28 @@
+/* Create social media button links using flexbox */
+#social-media {
+    text-align: center;
+}
+
+#social-flex {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links {
+    text-decoration: none;
+    background-color: coral;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    color:white;
+}
+
+.social-links:hover {
+    text-decoration: none;
+    opacity: 0.3;
+    background-color: coral;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    color:white;
+}

@@ -2,7 +2,6 @@
 #images {
 }
 
-
 .highlight {
   padding:10px 10px;
   background-color: black;
@@ -27,6 +26,7 @@
     text-align: center;
     color:white;
 }
+
 #exercise {
     background-image: url(images/exercise.jpg);
     background-size:cover;

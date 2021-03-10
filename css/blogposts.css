@@ -1,177 +1,80 @@
-@import "navigation.css";
-@import "footer.css";
-
-*{
-    margin:0px;
-    padding:0px;
-}
-
-html {
-    margin:15px 15px;
-}
-
-h1 {color:coral;
-
-}
-
-h3 {
-  margin-bottom: 10px;
-}
-
-
 /* Master grid for  website page layout */
 .grid-blog {
     height: 100%;
     width:100%;
     display:grid;
     grid-gap:15px;
-    /* border: 2px dashed black; */
     grid-template-columns: 1fr;
     grid-template-rows:100px 50px 1fr 50px 100px 250px 50px;
     grid-template-areas:
     "head"
     "nav"
-    "main"
+    "blog"
     "social"
     "side"
     "about"
     "foot";
-  }
-
-/* Test subgrid layout */
-/* .flex {
-  border: 2px dashed red;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  } */
+}
 
 /* Header area */
 #head {
     grid-area:head;
-    text-align: center;
-    line-height: 100px;
+    }
 
 /* Navigation Bar */
-}
  #nav {
      grid-area:nav;
-   }
+    }
 
  #side {
      grid-area:side;
-     text-align: center;
-     /* border: 2px dashed red; */
-     /* border: 1px dashed lightgrey; */
-     padding: 20px;
-
     }
-
-#about {
-    grid-are:about;
-    text-align: center;
-    /* border: 2px dashed orange; */
-    /* border: 1px dashed lightgrey; */
-    padding:10px;
-
-}
-
-/* Main content area */
- #main {
-     grid-area:main;
-    text-align: center;
-    /* border: 2px dashed grey; */
- }
-
-/* Main Content section on Home page*/
-.nest-grid-content {
-    display:grid;
-    grid-template-columns:1fr;
-    grid-template-rows: 100px 250px 1fr;
-    grid-template-areas:
-    "tit"
-    "imc"
-    "bpr";
-    grid-gap:5px;
-    overflow: hidden;
-
-    /* border: 1px dashed lightgrey; */
-}
-
-.nest-content {
-    /* border: 1px solid red; */
-}
-
-#title {
-    grid-area:tit;
-    line-height: auto;
-    padding-top: 20px;
-}
-
-#main-image {
-    grid-area:imc;
-    background-image: url("images/coffee.jpg");
-    background-size:cover;
-}
-#blog-content {
-    grid-area:bpr;
-    /* margin: 10px 10px; */
-}
-
-
-.blog-links {
-    text-decoration: none;
-    color:black;
-}
-
-.blog-links:hover {
-    color:coral;
-}
 
 #about {
     grid-area:about;
 }
 
-.avatar {
-    width:100px;
-    height:100px;
-    border-radius: 50%;
-    margin:25px;
-    border: 2px solid coral;
-    vertical-align: middle;
+/* Main content area */
+ #blog-post {
+    grid-area:blog;
+    text-align: center;
+ }
+
+/* Main Content section on Home page*/
+.nest-grid-blog {
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 100px 250px 1fr;
+    grid-template-areas:
+    "btit"
+    "bimg"
+    "bloc";
+    grid-gap:5px;
+    overflow: hidden;
 }
 
-.avatar:hover {
-    opacity:0.3;
+.nest-blog-content {
+}
+
+#blog-title {
+    grid-area:btit;
+    line-height: auto;
+    padding-top: 20px;
+}
+
+#blog-image {
+    grid-area:bimg;
+    background-image: url("images/coffee.jpg");
+    background-size:cover;
+}
+
+#blog-content {
+    grid-area:bloc;
 }
 
 #social-media {
     grid-area:social;
-    text-align: center;
 }
-
-#social-flex {
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-}
-.social-links {
-    text-decoration: none;
-    background-color: coral;
-    padding: 10px 10px;
-    margin: 0px 10px;
-    color:white;
-}
-.social-links:hover {
-    text-decoration: none;
-    opacity: 0.3;
-    background-color: coral;
-    padding: 10px 10px;
-    margin: 0px 10px;
-    color:white;
-}
-
 
 /* Footer section on main page */
  #foot {
@@ -180,70 +83,61 @@ h3 {
 
 /* medium browsers */
 @media (min-width:600px) and (max-width:1000px) {
-  .grid {
-      height: 100%;
-      width:100%;
-      display:grid;
-      /* border: 2px dashed black; */
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows:100px 50px 150px 150px 1fr 100px 50px;
-      grid-template-areas:
-      "head head head"
-      "nav nav nav"
-      "main main side"
-      "main main about"
-      "main main ."
-      "social social ."
-      "foot foot foot";
+    .grid-blog {
+        height: 100%;
+        width:100%;
+        display:grid;
+        /* border: 2px dashed black; */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:100px 50px 150px 150px 1fr 100px 50px;
+        grid-template-areas:
+        "head head head"
+        "nav nav nav"
+        "blog blog side"
+        "blog blog about"
+        "blog blog ."
+        "social social ."
+        "foot foot foot";
+    }
 
-  }
-
-  .nest-grid-content {
-      display:grid;
-      grid-template-columns:1fr;
-      grid-template-rows: 100px 250px 1fr;
-      grid-template-areas:
-      "tit"
-      "imc"
-      "bpr";
-  }
-
-  }
+    .nest-blog-content {
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 100px 250px 1fr;
+        grid-template-areas:
+        "btit"
+        "bimg"
+        "bloc";
+    }
+}
 
 
 /* wide browsers */
 @media (min-width:1001px) {
-  .grid {
-      height: 100%;
-      width:100%;
-      display:grid;
-      /* border: 2px dashed blue; */
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows:100px 50px 150px 150px 1fr 100px 50px;
-      grid-template-areas:
-      "head head head"
-      "nav nav nav"
-      "main main side"
-      "main main about"
-      "main main ."
-      "social social ."
-      "foot foot foot";
-  }
+    .grid-blog {
+        height: 100%;
+        width:100%;
+        display:grid;
+        /* border: 2px dashed blue; */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:100px 50px 150px 150px 1fr 100px 50px;
+        grid-template-areas:
+        "head head head"
+        "nav nav nav"
+        "blog blog side"
+        "blog blog about"
+        "blog blog ."
+        "social social ."
+        "foot foot foot";
+    }
 
-  .nest-grid-content {
-      display:grid;
-      grid-template-columns:1fr;
-      grid-template-rows: 100px 250px 1fr;
-      grid-template-areas:
-      "tit"
-      "imc"
-      "bpr"
-      "but";
-  }
-}
-
-
-body {
-    font-family: 'Roboto', sans-serif;
-
+    .nest-blog-content {
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 100px 250px 1fr;
+        grid-template-areas:
+        "btit"
+        "bimg"
+        "bloc";
+    }
 }
