@@ -25,6 +25,13 @@ h1 {
     color:coral;
 }
 
+h2 {
+    color: coral;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+}
+
 /* Set H3 margin for extra spacing with paragraphs */
 h3 {
     margin-bottom: 10px;
@@ -32,4 +39,35 @@ h3 {
 
 body {
     font-family: 'Roboto', sans-serif;
+  }
+
+blockquote   {
+    font-style: italic;
+    font-weight: bold;
+    color:darkgrey;
+}
+
+q {
+    font-style:oblique;
+    font-weight:lighter;
+    color:coral;
+    font-size: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-transform: lowercase;
+    color:coral;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: 700;
+    color:lightblue;
+    font-size: 15px;
 }

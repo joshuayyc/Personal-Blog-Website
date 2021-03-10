@@ -2,6 +2,9 @@
  #main {
     text-align: center;
  }
+#main:hover {
+    opacity: 0.8;
+}
 
 /* Prevent content from overflowing for blog preview */
 .nest-content {
