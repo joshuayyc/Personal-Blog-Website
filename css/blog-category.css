@@ -9,7 +9,7 @@
 }
 
 #technology {
-    background-image: url(images/technology.jpg);
+    background-image: url(../images/technology.jpg);
     background-size:cover;
     line-height: 200px;
     text-align: center;
@@ -20,7 +20,7 @@
 }
 
 #travel {
-    background-image: url(images/travel.jpg);
+    background-image: url(../images/travel.jpg);
     background-size:cover;
     line-height: 200px;
     text-align: center;
@@ -28,7 +28,7 @@
 }
 
 #exercise {
-    background-image: url(images/exercise.jpg);
+    background-image: url(../images/exercise.jpg);
     background-size:cover;
     line-height: 200px;
     text-align: center;

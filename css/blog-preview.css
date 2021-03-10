@@ -12,7 +12,7 @@
 }
 
 #main-image {
-    background-image: url("images/coffee.jpg");
+    background-image: url("../images/coffee.jpg");
     background-size:cover;
 }
 
@@ -42,7 +42,7 @@
     border-style:none;
     padding: 0px 20px;
   }
-  
+
 #cont-read:hover {
     opacity: 0.3;
     border-style: none;

@@ -64,7 +64,7 @@
 
 #blog-image {
     grid-area:bimg;
-    background-image: url("images/coffee.jpg");
+    background-image: url("../images/coffee.jpg");
     background-size:cover;
 }
 
