@@ -5,7 +5,7 @@
     display: grid;
     grid-gap: 15px;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 50px 1fr 50px 100px 250px 50px;
+    grid-template-rows: 100px 50px 1fr 50px 100px 250px 160px 50px;
     grid-template-areas:
     "head"
     "nav"
@@ -13,6 +13,7 @@
     "social"
     "side"
     "about"
+    "sub"
     "foot";
 }
 
@@ -76,6 +77,10 @@
     grid-area: social;
 }
 
+#subscribe {
+   grid-area: sub;
+}
+
 /* Footer section on main page */
  #foot {
      grid-area: foot;
@@ -87,14 +92,14 @@
         height: 100%;
         width: 100%;
         display: grid;
-        /* border: 2px dashed black; */
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px 50px 150px 150px 1fr 100px 50px;
+        grid-template-rows: 100px 50px 150px 250px 160px 1fr 100px 50px;
         grid-template-areas:
         "head head head"
         "nav nav nav"
         "blog blog side"
         "blog blog about"
+        "blog blog sub"
         "blog blog ."
         "social social ."
         "foot foot foot";
@@ -119,12 +124,13 @@
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px 50px 150px 150px 1fr 100px 50px;
+        grid-template-rows: 100px 50px 150px 250px 160px 1fr 100px 50px;
         grid-template-areas:
         "head head head"
         "nav nav nav"
         "blog blog side"
         "blog blog about"
+        "blog blog sub"
         "blog blog ."
         "social social ."
         "foot foot foot";

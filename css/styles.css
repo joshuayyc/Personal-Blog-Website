@@ -8,6 +8,7 @@
 @import "sidebar.css";
 @import "avatar.css";
 @import "social-media.css";
+@import "subscribe.css";
 @import "footer.css";
 
 /* Remove all default margin and padding */
@@ -35,6 +36,7 @@ h2 {
 /* Set H3 margin for extra spacing with paragraphs */
 h3 {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 body {

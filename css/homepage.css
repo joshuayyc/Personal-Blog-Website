@@ -6,7 +6,7 @@
     grid-gap: 15px;
     min-width: 400px;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 50px 200px 100px 250px 415px 50px;
+    grid-template-rows: 100px 50px 200px 100px 250px 415px 160px 50px;
     grid-template-areas:
     "head"
     "nav"
@@ -14,6 +14,7 @@
     "side"
     "about"
     "main"
+    "sub"
     "foot";
 }
 
@@ -67,6 +68,10 @@
     grid-area: main;
  }
 
+ #subscribe {
+    grid-area: sub;
+ }
+
 /* Nested Grid for Blog-Preview Section*/
 .nest-grid-content {
     display: grid;
@@ -112,16 +117,17 @@
         display: grid;
         /* border: 2px dashed black; */
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px 50px 200px 100px 315px 50px;
+        grid-template-rows: 100px 50px 200px 100px 315px 160px 50px;
         grid-template-areas:
         "head head head"
         "nav nav nav"
         "images images images"
         "main main side"
         "main main about"
+        "sub sub sub"
         "foot foot foot";
     }
-    
+
     .nest-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -150,13 +156,14 @@
         width: 100%;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px 50px 200px 100px 315px 50px;
+        grid-template-rows: 100px 50px 200px 100px 315px 160px 50px;
         grid-template-areas:
         "head head head"
         "nav nav nav"
         "images images images"
         "main main side"
         "main main about"
+        "sub sub sub"
         "foot foot foot";
     }
 

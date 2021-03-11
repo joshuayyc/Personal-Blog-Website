@@ -1,0 +1,28 @@
+#subscribe {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+#sub-title {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.sub-class {
+    margin: 5px 0px;
+}
+
+#sub-button {
+    background-color: coral;
+    color: white;
+    height: 50px;
+    border-style: none;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+#sub-button:hover {
+    opacity: 0.3;
+    border-style: none;
+}
