@@ -6,7 +6,7 @@
     grid-gap: 15px;
     min-width: 400px;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 50px 200px 100px 250px 415px 160px 50px;
+    grid-template-rows: 100px 50px 200px 100px 250px 415px 180px 50px;
     grid-template-areas:
     "head"
     "nav"
@@ -117,7 +117,7 @@
         display: grid;
         /* border: 2px dashed black; */
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px 50px 200px 100px 315px 160px 50px;
+        grid-template-rows: 100px 50px 200px 100px 315px 180px 50px;
         grid-template-areas:
         "head head head"
         "nav nav nav"
@@ -156,7 +156,7 @@
         width: 100%;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px 50px 200px 100px 315px 160px 50px;
+        grid-template-rows: 100px 50px 200px 100px 315px 180px 50px;
         grid-template-areas:
         "head head head"
         "nav nav nav"
