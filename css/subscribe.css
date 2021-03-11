@@ -20,6 +20,9 @@
     border-style: none;
     padding: 5px 15px;
     text-align: center;
+    -webkit-apperance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 #sub-button:hover {
