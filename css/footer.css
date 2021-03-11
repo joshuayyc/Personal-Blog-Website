@@ -1,8 +1,8 @@
 /* Stylesheet for footer element at the bottom */
 #foot {
-    grid-area:foot;
+    grid-area: foot;
     background-color: black;
-    color:white;
+    color: white;
     line-height: 50px;
     text-align: center;
     font-size: 13px;

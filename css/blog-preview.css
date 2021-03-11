@@ -2,6 +2,7 @@
  #main {
     text-align: center;
  }
+
 #main:hover {
     opacity: 0.8;
 }
@@ -16,7 +17,7 @@
 
 #main-image {
     background-image: url("../images/coffee.jpg");
-    background-size:cover;
+    background-size: cover;
 }
 
 #blog-preview {
@@ -24,29 +25,29 @@
 }
 
 #cont-button {
-  line-height: 50px;
+    line-height: 50px;
 }
 
 
 .blog-links {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 .blog-links:hover {
-    color:coral;
+    color: coral;
 }
 
 
 #cont-read {
     background-color: coral;
-    color:white;
-    height:50px;
-    border-style:none;
+    color: white;
+    height: 50px;
+    border-style: none;
     padding: 0px 20px;
-  }
+}
 
 #cont-read:hover {
     opacity: 0.3;
     border-style: none;
-  }
+}

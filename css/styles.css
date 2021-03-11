@@ -11,18 +11,18 @@
 @import "footer.css";
 
 /* Remove all default margin and padding */
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Set margins */
 html {
-    margin:15px 15px;
+    margin: 15px 15px;
 }
 
 h1 {
-    color:coral;
+    color: coral;
 }
 
 h2 {
@@ -38,26 +38,26 @@ h3 {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-  }
+    font-family: "Roboto", sans-serif;
+}
 
 blockquote   {
     font-style: italic;
     font-weight: bold;
-    color:darkgrey;
+    color: darkgrey;
 }
 
 q {
-    font-style:oblique;
-    font-weight:lighter;
-    color:coral;
+    font-style: oblique;
+    font-weight: lighter;
+    color: coral;
     font-size: 10px;
 }
 
 .underline {
     text-decoration: underline;
     text-transform: lowercase;
-    color:coral;
+    color: coral;
 }
 
 .italic {
@@ -68,6 +68,6 @@ q {
 
 .bold {
     font-weight: 700;
-    color:lightblue;
+    color: lightblue;
     font-size: 15px;
 }

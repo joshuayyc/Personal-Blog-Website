@@ -2,13 +2,13 @@
 #side {
     text-align: center;
     padding: 10px;
-   }
+}
 
 .blog-links {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 .blog-links:hover {
-    color:coral;
+    color: coral;
 }
