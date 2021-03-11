@@ -6,7 +6,7 @@
     grid-gap: 15px;
     min-width: 400px;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 50px 200px 100px 250px 415px 180px 50px;
+    grid-template-rows: 100px 50px 200px 100px 250px 430px 180px 50px;
     grid-template-areas:
     "head"
     "nav"
@@ -76,7 +76,7 @@
 .nest-grid-content {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 250px 50px 50px;
+    grid-template-rows: 65px 250px 50px 50px;
     grid-template-areas:
     "tit"
     "imc"
@@ -117,7 +117,7 @@
         display: grid;
         /* border: 2px dashed black; */
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px 50px 200px 100px 315px 180px 50px;
+        grid-template-rows: 100px 50px 200px 100px 330px 180px 50px;
         grid-template-areas:
         "head head head"
         "nav nav nav"
@@ -139,7 +139,7 @@
     .nest-grid-content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 50px 250px 50px 50px;
+        grid-template-rows: 65px 250px 50px 50px;
         grid-template-areas:
         "tit"
         "imc"
@@ -156,7 +156,7 @@
         width: 100%;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px 50px 200px 100px 315px 180px 50px;
+        grid-template-rows: 100px 50px 200px 100px 330px 180px 50px;
         grid-template-areas:
         "head head head"
         "nav nav nav"
@@ -178,7 +178,7 @@
     .nest-grid-content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 50px 250px 50px 50px;
+        grid-template-rows: 65px 250px 50px 50px;
         grid-template-areas:
         "tit"
         "imc"
