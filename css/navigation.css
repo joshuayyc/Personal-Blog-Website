@@ -16,8 +16,9 @@
     margin: 0 auto;
 }
 
+/* Set each list item to 1/4 of screen width */
 .nav-li {
-   width: 100px;
+   width: 25%;
 }
 
 /*Turns links to block element  */
