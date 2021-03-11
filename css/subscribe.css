@@ -29,3 +29,9 @@
     opacity: 0.3;
     border-style: none;
 }
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
